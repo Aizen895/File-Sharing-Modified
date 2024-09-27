@@ -38,8 +38,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-                [InlineKeyboardButton('ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_Madness'),
-                 InlineKeyboardButton('ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Ongoing_Madness')],
+                [InlineKeyboardButton(' ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_Madness'),
+                 InlineKeyboardButton('ɴғᴡs', url='https://t.me/Cultured_Madness')],
                 [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')]
             ])
         )
